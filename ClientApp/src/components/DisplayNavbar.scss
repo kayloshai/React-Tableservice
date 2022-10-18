@@ -1,0 +1,29 @@
+.nav-container {
+  position: absolute;
+  margin-bottom: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  bottom: 0;
+}
+.nav-btn {
+  width: 130px;
+  height: 60px;
+  margin: 0;
+  border-radius: 0.5rem;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  width: 100vw;
+  margin-left: 1px;
+}
+
+.child {
+  flex-grow: 1;
+  flex-basis: 0;
+}

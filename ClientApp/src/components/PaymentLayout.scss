@@ -1,0 +1,40 @@
+﻿$p1Remove: #f09c9c;
+$p1Font: #ffffff;
+.btn {
+  height: 58px;
+  width: 140px;
+  font-size: 22pt;
+  padding: 0;
+  margin: 0;
+}
+.btn-increment {
+  background-color: rgb(238, 135, 45);
+  border-color: $p1Remove;
+}
+.btn-decrement {
+  background-color: $p1Remove;
+  border-color: $p1Remove;
+}
+.options {
+  margin-left: auto;
+  margin-right: 0;
+}
+.container2 {
+  width: 1200px;
+  height: 100px;
+  margin: 20px auto;
+  max-width: calc(100% - 20px);
+}
+nav select {
+  display: none;
+}
+
+@media (max-width: 960px) {
+  nav ul {
+    display: none;
+  }
+
+  nav select {
+    display: inline-block;
+  }
+}
